@@ -4,49 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Md Rashid - Web Developer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            box-sizing: border-box;
-            margin-bottom: 100px;
-            clear: both;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-        }
-
-        section {
-            margin: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-
-        footer a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        
-        .center {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 300px;
-	    hight: 300px;
-        }
-    </style>
+    <link rel="stylesheet" href="HTMLAssignment4StyleSheet.css">
 </head>
 <body>
     <header>
@@ -61,7 +19,7 @@
             <li><a href="#skills">Skills</a></li>
         </ul>
     </nav>
-            <img class="center" src="prof-pic.jpg" alt="Md Rashid profile pic">
+            <img class="center" src="prof-pic.jpg" alt="Profile Pic">
     <section id="about">
         <h2>About Me</h2>
         <p>
@@ -81,12 +39,11 @@
     <section id="skills">
         <h2>Skills</h2>
         <ol>
-            <li>C#</li>
-            <li>ASP.NET</li>
-            <li>HTML/CSS - 90%</li>
-            <li>JavaScript - 80%</li>
-            <li>Responsive Design - 85%</li>
-            <li>UI/UX Design - 75%</li>
+            <li>C# - 65%</li>
+            <li>ASP.NET - 65%</li>
+            <li>HTML/CSS - 50%</li>
+            <li>JavaScript - 30%</li>
+            <li>Responsive Design - 35%</li>
         </ol>
     </section>
     <footer>
