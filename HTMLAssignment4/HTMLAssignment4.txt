@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Rashid - Web Developer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+            margin-bottom: 100px;
+            clear: both;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+	    hight: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Md Rashid</h1>
+        <h2>Web Developer</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav>
+            <img class="center" src="prof-pic.jpg" alt="Md Rashid profile pic">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am a passionate web developer with a love for coding. I enjoy creating responsive and user-friendly websites that make a positive impact.
+        </p>
+        
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor's Degree in Computer Science - B.N. College of Engineering & Technology</li>
+            <li>Web Development Certification - Coding Academy</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ol>
+            <li>C#</li>
+            <li>ASP.NET</li>
+            <li>HTML/CSS - 90%</li>
+            <li>JavaScript - 80%</li>
+            <li>Responsive Design - 85%</li>
+            <li>UI/UX Design - 75%</li>
+        </ol>
+    </section>
+    <footer>
+        <a href="#Facebook">Facebook</a>
+        <a href="#LinkedIn">LinkedIn</a>
+        <span>&copy; 2023 Md Rashid</span>
+    </footer>
+</body>
+</html>
