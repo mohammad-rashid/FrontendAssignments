@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment 3</title>
+    <style>
+        .column {
+            float: left;
+            width: 35.33%;
+            padding: 15px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        @media screen and (max-width: 500px) {
+            .column {
+                width: 100%;
+            }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div class="row">
+            <div class="column">
+                <label for="firstname">First Name:</label><br>
+                <input type="text" id="firstname" name="fname">
+            </div>
+            <div class="column">
+                <label for="lastname">Last Name:</label><br>
+                <input type="text" id="firstname" name="fname">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="column">
+                <label for="phone">Contact Number:</label><br>
+                <input type="tel" id="phone" name="phone">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="column">
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <label for="address">Address:</label><br>
+                <textarea id="address" name="address" style="height:40px; min-height:40px; min-width:180px"></textarea>
+            </div>
+            <div class="column">
+                <label>Gender:</label><br><br>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+            </div>
+            <br>
+        </div>
+        <div class="row">
+            <div class="column">
+                <label for="qual">Qualification:</label><br>
+                <select id=qual name=xp style="width:160px">
+                    <option value="">--Select--</option>
+                    <option value="12th">12th pass</option>
+                    <option value="B.Tech">Bachelor in Technology</option>
+                    <option value="M.Tech">Master in Technology</option>
+                </select>
+            </div>
+            <div class="column">
+                <label for="xp">Experience:</label><br>
+                <select id=xp name=xp style="width:160px">
+                    <option value="">--Select--</option>
+                    <option value="0 - 1">Less than 1 year</option>
+                    <option value="1 - 2">1 - 2 years</option>
+                    <option value="2 - 3">2 - 3 years</option>
+                    <option value="3+">Greater than 3 years</option>
+                </select>
+            </div>
+        </div>
+        <div style="padding:15px; display:flex; flex-wrap:wrap">
+            <label>Coding Languages:</label>
+            <div style="display:flex; flex-wrap:wrap">
+                <div>
+                    <input type="checkbox" id="ccpp" name="ccpp" value="C/C+">
+                    <label for="ccpp">C/C++</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="java" name="java" value="Java">
+                    <label for="java">Java</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="csh" name="csh" value="C#">
+                    <label for="csh">C#</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="php" name="php" value="PHP">
+                    <label for="php">PHP</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="python" name="python" value="Python">
+                    <label for="python">Python</label>
+                </div>
+            </div>
+        </div>
+        <div style="padding:15px">
+            <input type="submit">
+        </div>
+    </form>
+</body>
+
+</html>
